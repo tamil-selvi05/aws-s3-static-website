@@ -8,7 +8,7 @@ A personal portfolio website hosted on **Amazon S3** using static website hostin
 - **Static website hosting**: index document and error document
 - **Bucket policy**: JSON policy allowing public read access
 - **Block Public Access**: turned off for this bucket only, because it holds public website files
-- **Region**: Asia Pacific (Mumbai) `ap-south-1`
+- **Region**: Asia Pacific (Hyderabad) `ap-south-2`
 
 ## Project files
 
@@ -23,7 +23,7 @@ A personal portfolio website hosted on **Amazon S3** using static website hostin
 
 ## Steps I followed
 
-1. Created an S3 bucket in `ap-south-1` with a globally unique name.
+1. Created an S3 bucket in `ap-south-2` with a globally unique name.
 2. Turned off Block Public Access for the bucket.
 3. Uploaded `index.html`, `error.html` and `style.css`.
 4. Added the bucket policy from `bucket-policy.json`.
